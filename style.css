@@ -1,0 +1,135 @@
+*{
+    background-color: #1E1F1F;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: syncopate;
+    src: url(fonts/Syncopate\ Bold\ Cyr.otf);
+}
+
+header div{
+    text-align: center;
+    align-items: center;
+}
+
+.bsmtitle{
+    display: block;
+    position: static;
+    font-size: 34px;
+    padding-top: 29px;
+    font-family: syncopate;
+    background-image: linear-gradient(45deg, #DB9FE5, #BE8CC7, #8C6193);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.off-screen-menu{
+    position: absolute;
+    background-color: #121212;
+    height: 100vh;
+    width: 375px;
+    position: fixed;
+    top: 0;
+    left: -450px;
+    font-family: syncopate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    transition: .3s ease;
+}
+.off-screen-menu.active{
+    left: 0;
+
+}
+.off-screen-menu li{
+    text-decoration: none;
+    color: white;
+    background-color: #121212;
+}
+.off-screen-menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #121212;
+}
+
+
+.ham-github{
+    position: absolute;
+    top: 93%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #DB9FE5, #BE8CC7, #8C6193);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+nav{
+    padding: 1rem;
+    display: flex;
+}
+.ham-menu{
+    position: absolute;
+    width: 50px;
+    top: 47px;
+    left: 47px;
+    margin-left: auto;
+}
+.ham-menu img{
+    position: relative;
+    height: 65px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.bsm-ham{
+    position: absolute;
+    top: 35px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #DB9FE5, #BE8CC7, #8C6193);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.logo_burger_btn{
+    background-color: transparent;
+}
+
+/* body */
+
+.title img{
+    margin-top: 5%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title font{
+    font-family: syncopate;
+    text-align: center;
+    color: #BE8CC7;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 32px;
+    margin-top: 4%;
+}
+
+.screenshots{
+    font-size: 48px;
+    color: white;
+    font-family: syncopate;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7%;
+}
