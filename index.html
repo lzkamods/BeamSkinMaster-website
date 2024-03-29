@@ -32,9 +32,8 @@
             <font>All UV'S and text files (.json and<br>.jbeam) were taken from SkinHelper.<br>The program was written in XAML and<br>C# (WinUi 3) in 1 month by a  12-year-<br>old Ukrainian boy. This program will<br>help you create your UNIQUE  skin IN<br>10 MINUTES. Just select a car,<br>download the uv and edit it,  then<br>upload it, choose a name... And now<br>your brand new skin is ready and<br>import the mod into the game.</font>
         </div>
         
+        <font class="screenshots">SCREENSHOTS</font>
         <div class="scrnshts">
-            <font class="screenshots">SCREENSHOTS</font>
-
             <main>
                 <img src="images/screenshots/image 1.png" class="slide" alt="">
                 <img src="images/screenshots/image 2.png" class="slide" alt="">
@@ -44,8 +43,12 @@
                 <img src="images/screenshots/image 6.png" class="slide" alt="">
             </main>
             <div class="nav">
-                <button onclick="goPrev()">prev</button>
-                <button onclick="goNext()">next</button>
+                <button class="goPrev" onclick="goPrev()">
+                    <img src="images/svg/left arrow.svg">
+                </button>
+                <button class="goNext" onclick="goNext()">
+                <img src="images/svg/right arrow.svg">
+                </button>
             </div>
         </div>
         <script src="script.js"></script>

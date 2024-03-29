@@ -12,16 +12,16 @@ var counterMax = 5;
 // console.log(slides)
 slides.forEach(
     (slide,index) => {
-        slide.style.left = `${index * 47}%`
+        slide.style.left = `${index * 100}%`
     }
 )
 
 const goPrev = () => {
-    if(counter > 1){
+    if(counter > 0){
     counter--
     slideImage()  
     } else {
-        counter = 6
+        counter = 5
         SlideImage()
     }
 }
@@ -31,7 +31,7 @@ const goNext = () => {
         counter++
         slideImage()
     } else {
-        counter = -1
+        counter = 0
         SlideImage()
     }
 }
@@ -39,7 +39,7 @@ const goNext = () => {
 const slideImage =() => {
     slides.forEach(
         (slide) => {
-            slide.style.transform = `translateX(-${counter * 147}%)`
+            slide.style.transform = `translateX(-${counter * 100}%)`
         }
     )
 }
