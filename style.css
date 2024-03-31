@@ -241,7 +241,7 @@ nav{
     font-family: syncopate;
     cursor: pointer;
 }
-footer{
+.fter{
     margin-top: 90px;
     color: #ffffff;
     font-size: 20px;
@@ -251,8 +251,60 @@ footer{
 .ffont{
     color: #DB9FE5;
 }
-footer img{
+.fter img{
     margin-top: -50px;
     margin-left: 81%;
     position: absolute;
+}
+
+
+.abtme{
+    color: #BE8CC7;
+    font-family: syncopate;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.descme{
+    color: #ffffff;
+    font-family: syncopate;
+    font-size: 30px;
+    margin-top: 150px;
+}
+.ft{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 100%;
+    font-family: syncopate;
+}
+.ft img{
+    margin-top: -50px;
+    margin-left: 81%;
+    position: absolute;
+}
+
+
+.SPRTme{
+    color: #FFFFFF;
+    font-family: syncopate;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.donatebtn{
+    border: none;
+    font-size: 30px;
+    height: 80px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: #BE8CC7;
+    color: #1E1F1F;
+    font-family: syncopate;
+    cursor: pointer;
+}
+.donatebtndiv{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
