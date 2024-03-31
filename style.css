@@ -34,7 +34,7 @@ main{
 
 .goPrev{
     margin-left: -830px;
-    margin-top: -360px;
+    margin-top: -405px;
     position: absolute;
     border: none;
 }
@@ -46,7 +46,7 @@ main{
 
 .goNext{
     margin-left: 770px;
-    margin-top: -360px;
+    margin-top: -405px;
     position: absolute;
     border: none;
 }
@@ -185,5 +185,39 @@ nav{
     margin-top: 7%;
 }
 .scrnshts{
+    margin-top: 50px;
+}
+
+.langs{
+    margin-top: 50px;
+}
+
+.suptlangs{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: syncopate;
+}
+
+.LANGUAGES{
+    line-height: 50px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: syncopate;
+    color: #DB9FE5;
+}
+
+.one{
+    font-family: syncopate;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+.two{
+    font-family: syncopate;
+    font-size: 35px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.video{
     margin-top: 50px;
 }
